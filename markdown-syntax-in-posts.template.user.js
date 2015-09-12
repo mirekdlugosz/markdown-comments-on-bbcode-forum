@@ -15,7 +15,7 @@ function displayPreview() {
 		return;
 	}
 	previewBox.style.display = "block";
-	preview.innerHTML = converter.process(postForm.req_message.value)
+	preview.textContent = converter.process(postForm.req_message.value)
 }
 
 function main() {
